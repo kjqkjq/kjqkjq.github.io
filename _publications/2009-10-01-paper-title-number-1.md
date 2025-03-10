@@ -9,14 +9,15 @@ venue: 'Journal 1'
 slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 paperurl: 'http://academicpages.github.io/files/paper1.pdf'
 citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+<｜placeholder｜>
 ---
-
-<!-- category ：论文所属的类别，这里是 Journal -->
-<!-- venue ：论文发表的期刊或会议名称 -->
-<!-- slidesurl ：幻灯片链接 -->
-<!-- permalink 链接，随着文件名一起修改      -->
 <details>
   <summary>论文简介</summary>
   <p>The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.</p>
 </details>
+<!-- category ：论文所属的类别，这里是 Journal -->
+<!-- venue ：论文发表的期刊或会议名称 -->
+<!-- slidesurl ：幻灯片链接 -->
+<!-- permalink 链接，随着文件名一起修改      -->
+
 
