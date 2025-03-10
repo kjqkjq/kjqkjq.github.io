@@ -21,29 +21,14 @@ author_profile: true
       {% endif %}
       {% unless title_shown %}
         <h2>{{ category[1].title }}</h2><hr />
+        {% assign title_shown = true %}
       {% endunless %}
-      <div>
-        {% include archive-single.html %}
-        {% if post.excerpt %}
-          <details>
-            <summary>简介</summary>
-            <div>{{ post.excerpt }}</div>
-          </details>
-        {% endif %}
-      </div>
+      {% include archive-single.html %}
     {% endfor %}
   {% endfor %}
 {% else %}
   {% for post in site.publications reversed %}
-    <div>
-      {% include archive-single.html %}
-      {% if post.excerpt %}
-        <details>
-          <summary>简介</summary>
-          <div>{{ post.excerpt }}</div>
-        </details>
-      {% endif %}
-    </div>
+    {% include archive-single.html %}
   {% endfor %}
 {% endif %}
 
